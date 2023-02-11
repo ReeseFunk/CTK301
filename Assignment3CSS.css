@@ -1,0 +1,24 @@
+#header1 {
+    color:deeppink;
+    background-color: #66caa4;
+}
+.blue {
+
+    color:rgb(107, 107, 236);
+
+}
+.green{
+    color:rgb(42, 135, 47);
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(11, 131, 25);
+}
+a:hover {
+    color:rgb(196, 210, 38);
+    text-decoration: underline;
+}
