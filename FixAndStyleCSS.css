@@ -1,0 +1,37 @@
+.blueback {
+    color: rgb(0, 0, 0);
+    background-color: #43c0e6;
+    }
+    #whitetext1{
+        color: rgb(255, 255, 255);
+       
+        }
+        a {
+            color: rgb(15, 124, 69);
+            text-decoration: none;
+        }
+        .yellow {
+            color:rgb(187, 187, 19) 
+
+        }
+        #yellowback {
+            color: rgb(0, 0, 0);
+    background-color: #eadd2d;
+
+        }
+        .redtext {
+            color: rgb(234, 18, 18);
+            
+            }
+            #greenbackyellow {
+                color: rgb(239, 255, 12);
+        background-color: #075a0d;}
+    .tealback {
+        background-color: aquamarine;
+    }
+    .yelloww {
+        background-color: #eadd2d;
+    }
+    #bluetext {
+        color:#1287ab
+    }
