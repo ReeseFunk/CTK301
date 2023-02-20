@@ -1,0 +1,59 @@
+body {
+    background-color: #0000ff;
+    background-image: url(pyramids.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}      
+
+
+.orangejuice {
+      font-weight: normal;
+      font-style: italic;
+     color: rgb(234, 148, 18);
+  
+}.customtext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.customtext2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.customtext3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.customtext4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textcenter {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.textjustify {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.boxmodel {
+    border: 2px solid #000000;
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+}
