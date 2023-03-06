@@ -1,0 +1,123 @@
+
+      .outer-container {
+    
+  
+    background-image: url('a62.png');
+    background-repeat: repeat;
+   
+     }
+#wrapper {
+    width: 960px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;
+    
+
+  }
+  a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ a:hover{
+    color:blue;
+    text-decoration: underline;
+ }
+ h1 {
+    grid-column: span 6;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: black;
+    padding-left: 24px;
+    color: white;
+    font-family: Helvetica;
+    font-weight: normal;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  nav {
+    grid-column: span 1;
+  }
+  main {
+    float:right;
+    grid-column: span 3;
+    margin-right: 24px;
+  }
+  header {
+    grid-column: span 5;
+    border-bottom: 3px solid black;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: Helvetica;
+    margin-bottom: 1rem;
+    
+    min-width: 740px;
+ 
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    width: 200px;
+  }
+  nav li a:hover {
+    background-color: rgb(106, 3, 3);
+    
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 24px;
+  }
+  nav li a {
+    display: block;
+    background-color: red;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 24px;
+  }
+  
+  aside {
+    clear: float;
+    grid-column: span 2;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 0px 24px 24px 24px;
+    font-family: Georgia, serif; 
+    text-align: justify; 
+    font-weight: bold;
+   
+
+  }
+  
+  
+  
+  main img {
+    width: 420px;
+    margin-right: 350px;
+    float:left;
+    margin-left:20px;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0); }
+
+   
+    footer {
+        grid-column: span 6;
+        background-color: red;
+        border: 1px solid rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-align: center;
+        color:white;
+    }
+    .maintext {
+        margin-left: 220px;
+        text-align: left;
+        grid-column: span 6;
+        margin-top: -20px;
+    }
