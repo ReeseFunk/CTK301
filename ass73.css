@@ -1,0 +1,184 @@
+#wrapper {
+    width: 960px;
+    border: 6px solid rgb(76, 6, 174);
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: white;}
+
+    h1 {
+        grid-column: span 6;
+    border-bottom: 3px solid rgb(14, 11, 155);
+    background: linear-gradient(to top, #1a13e0, #27b9f7);
+    color:aqua;
+    margin-top: 0;
+    padding: 1em;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+    }
+    h1 a {
+        text-decoration:none;
+        color:rgb(105, 220, 255);
+    }
+
+    nav{
+        grid-column: span 6;
+       
+        color:aqua;
+        background: linear-gradient(to top, #1a13e0, #27b9f7);
+        border-bottom: 3px solid rgb(86, 7, 160);
+        margin-top: -30px;
+        
+        font-family: Helvetica, Arial, sans-serif;
+        height: 60px;
+       
+    }
+    nav ul{
+        margin-left: 0;
+        
+        list-style-type: none;
+    }
+    nav li{
+        display: inline-block;
+        margin-right: 20px;
+        border: 3px solid rgb(100, 25, 205);
+    }
+    nav a{
+        background-color: rgb(58, 37, 219);
+        color: rgb(65, 189, 231);
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        width: 200px;
+        text-align:center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+    nav a:hover{
+        color: white;
+        font-weight: bold;
+    }
+    main h2{
+        border-bottom: 3px solid blue;
+        color: blue;
+        
+        font-family: Helvetica, Arial, sans-serif;
+        
+    }
+    main {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+        color:rgb(0, 0, 0);
+         padding: 10px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-weight: normal;
+        margin-left: 1em;
+        
+        
+    }
+    main a{
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    main a:hover{
+        color: rgb(20, 10, 207);
+    }
+    section a{
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    section a:hover{
+        color: rgb(20, 10, 207);
+    }
+    aside a{
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    aside a:hover{
+        color: rgb(20, 10, 207);
+    }
+   
+    main h2{
+       
+        grid-column: span 2;
+        border-bottom: 3px solid blue;
+        color: blue;
+    }
+    main img{
+        width: 200px;
+        float: left;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 25px;
+        height: 200px;
+    }
+    
+    aside{
+        grid-column: span 2;
+        background-color: rgb(255, 255, 255);
+      
+        padding: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        
+    }
+    aside img{
+        width: 200px;
+        float: left;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 25px;
+        height: 200px;
+        
+    }
+
+    
+    section h2{
+        grid-column: span 2;
+        border-bottom: 3px solid blue;
+        color: blue;
+       margin-top: 20px;
+       width: 250px;
+       
+    }
+    section img{
+        width: 200px;
+        height: 200px;
+        float: left;
+       
+        margin-right: 1em;
+        padding: 25px;
+        
+    }
+    section {
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+        color:rgb(0, 0, 0);
+         padding: 10px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-weight: normal;
+        margin-left: 1em;
+        
+        
+    }
+    aside h2{
+        grid-column: span 2;
+        border-bottom: 3px solid blue;
+        color: blue;
+        margin-top: 4px;
+       
+        width: 250px;
+    }
+    footer{
+        grid-column: span 6;
+        height: 100px;
+        background-image: url('MMBG.jpg') ;
+        background-size: contain;
+        border: 4px solid rgb(14, 11, 155);
+    }
