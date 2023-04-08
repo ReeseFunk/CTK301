@@ -1,0 +1,87 @@
+header {
+	background-color: #fca3e4;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	color: orange;
+	border: 1px solid black;
+	-webkit-text-stroke: 1px black;
+	font-size: 24px;
+}
+
+nav {
+	float: right;
+	margin-right: 20px;
+	width: 25%;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li {
+	margin-bottom: 10px;
+}
+
+nav a {
+	background-color: #fca3e4;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 20px;
+	color: orange;
+	border: 1px solid black;
+	-webkit-text-stroke: 1px black;
+	font-family: Helvetica;
+	font-size: 28px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 50px auto;
+	max-width: 1200px;
+}
+
+.main img {
+	display: block;
+	margin-bottom: 20px;
+	max-width: 500px;
+	width: 100%;
+	border: 5px solid black;
+}
+
+.textbox {
+	background-color: #a3e7fc;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	flex: 1 1 70%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+.textbox h2 {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
