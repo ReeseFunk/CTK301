@@ -6,22 +6,29 @@ header {
 	color: orange;
 	border: 1px solid black;
 	-webkit-text-stroke: 1px black;
-	font-size: 24px;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
 }
 
 nav {
 	float: right;
 	margin-right: 20px;
 	width: 25%;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: background-color 0.3s ease-in-out;
 }
 
 nav ul {
 	list-style: none;
 	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 nav li {
 	margin-bottom: 10px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 nav a {
@@ -34,14 +41,15 @@ nav a {
 	color: orange;
 	border: 1px solid black;
 	-webkit-text-stroke: 1px black;
-	font-family: Helvetica;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 28px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease-in-out;
 }
 
 nav a:hover {
-	background-color: #333;
+	background-color: #1582aa;
 	color: #fff;
 }
 
@@ -60,6 +68,7 @@ main {
 	max-width: 500px;
 	width: 100%;
 	border: 5px solid black;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .textbox {
@@ -73,6 +82,7 @@ main {
 	margin-bottom: 50px;
 	margin-top: 50px;
 	padding: 20px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .textbox h2 {
@@ -85,3 +95,21 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+.social-icons {
+	display: flex;
+	align-items: center;
+  }
+
+  .social-icon {
+	display: inline-block;
+	font-size: 24px;
+	color: #333333;
+	margin-left: 10px;
+  }
+
+  .social-icon:hover {
+	color: #c13584;
+  }
+  .instabox {
+	font-size: 32px;
+  }
