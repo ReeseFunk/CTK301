@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Gallery</title><div id="wrapper">
+    <h1>Reese's Gallery</h1>
+  <div id="fdiv">
+<a href="CyberSea.jpg" data-fancybox="gallery" data-caption="Caption #1">
+  <img src="CzThumb.jpg" />
+</a>
+
+<a href="AstralSolstice.jpg" data-fancybox="gallery" data-caption="Caption #2">
+  <img src="AsThumb.jpg" />
+</a>
+<a href="CrashSite.jpg" data-fancybox="gallery" data-caption="Caption #2">
+  <img src="CsThumb.jpg" />
+</a>
+</div>
+<div id="myCarousel" class="f-carousel">
+  <div class="f-carousel__slide"><img src="CyberSea.jpg"></div>
+  <div class="f-carousel__slide"><img src="AstralSolstice.jpg"></div>
+  <div class="f-carousel__slide"><img src="CrashSite.jpg"></div>
+</div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+<!-- Links and script in <head> -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+
+<link rel="stylesheet" href="fancy.css">
+</head>
+
+<body></div>
+  <script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+
+
+
+const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+
+  </script>
+</body>
+</html>
